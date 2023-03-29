@@ -67,7 +67,19 @@
     .gnb { position: relative; }
     .gnb > ul { width: 1100px; height: 50px; margin: 0 auto; }
     .gnb > ul > li { float:left; width: 15%; }
+    .gnb > ul > li.hover > .sub { display: block; }
     
+    .sub { display: none; padding-top: 20px; width: 1000px; }
+    .sub > ul > li { float: lest; width: 20%; }
+    .sub > ul > li > a { display: block; color:darkblue; font-size: 1.1em;
+                        font-weight: 500;}
+    .sub > ul > li:hover > a { color:aliceblue; }
+    .sub.item2 { margin-left: -240px; }
+    .sub.item3 { margin-left: -320px; }
+    .sub.item4 { margin-left: -480px; }
+    .sub.item5 { margin-left: -640px; }
+    .sub.item6 { margin-left: -800px; }
+
     .main {clear:both; width: 100%; height: 450px; background-color: rgb(209, 204, 245); }
 
     .sitemap_btn { display:block; position:absolute; top:0px; right:0px; cursor: pointer;
@@ -104,12 +116,109 @@
                     </a>
                     <nav class="gnb">
                         <ul class="gnb_fr">
-                            <li><a href="">소개</a></li>
-                            <li><a href="">게임</a></li>
-                            <li><a href="">미디어</a></li>
-                            <li><a href="">문화</a></li>
-                            <li><a href="">채용</a></li>
-                            <li><a href="">투자정보</a></li>
+                            <li>
+                                <a href>소개</a>
+                                <div class="sub item1">
+                                    <ul class="dp2">
+                                        <li>
+                                            <a href>펄 어비스 소개</a>
+                                        </li>
+                                        <li>
+                                            <a href>연구소</a>
+                                        </li>
+                                        <li>
+                                            <a href>CCP</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href>게임</a>
+                                <div class="sub item2">
+                                    <ul class="dp2">
+                                        <li>
+                                            <a href>검은사막</a>
+                                        </li>
+                                        <li>
+                                            <a href>검은사막 모바일</a>
+                                        </li>
+                                        <li>
+                                            <a href>붉은사막</a>
+                                        </li>
+                                        <li>
+                                            <a href>도깨비</a>
+                                        </li>
+                                        <li>
+                                            <a href>플랜 8</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href>미디어</a>
+                                <div class="sub item3">
+                                    <ul class="dp2">
+                                        <li>
+                                            <a href>보도 자료</a>
+                                        </li>
+                                        <li>
+                                            <a href>미디어 행사</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href>문화</a>
+                                <div class="sub item4">
+                                    <ul class="dp2">
+                                        <li>
+                                            <a href>기업 문화</a>
+                                        </li>
+                                        <li>
+                                            <a href>복지</a>
+                                        </li>
+                                        <li>
+                                            <a href>펄어비스 소식</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href>채용</a>
+                                <div class="sub item5">
+                                    <ul class="dp2">
+                                        <li>
+                                            <a href>채용 소개</a>
+                                        </li>
+                                        <li>
+                                            <a href>지원하기</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href>투자정보</a>
+                                <div class="sub item6">
+                                    <ul class="dp2">
+                                        <li>
+                                            <a href>기업지배구조</a>
+                                        </li>
+                                        <li>
+                                            <a href>주가정보</a>
+                                        </li>
+                                        <li><a href>재무정보</a>
+                                        </li>
+                                        <li>
+                                            <a href>공시·공고</a></li>
+                                        <li>
+                                            <a href>IR 자료</a>
+                                        </li>
+                                        <li>
+                                            <a href>지속가능경영</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
                         </ul>
                     </nav>
                 </div>
